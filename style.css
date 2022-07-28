@@ -14,13 +14,14 @@ main{
     height: auto;
     margin: 20px auto;
     background-color: hsl(0, 0%, 100%);
+    border-radius: 20px 20px 10px 10px;
 }
 img{
     width: 100%;
     border-radius: 10px 10px 0 0;
 }
 .countainer{
-    padding: 22px 18px 20px 24px;
+    padding: 22px 18px 28px 24px;
 }
 p{
     font-size: 14px;
@@ -62,7 +63,7 @@ h1{
     text-decoration: line-through;
 }
 .btn{
-    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     display: flex;
     align-items: center;
@@ -73,6 +74,12 @@ h1{
     color: hsl(0, 0%, 100%);
     border-radius: 10px;
     margin-right: 10px;
+}
+.btn:hover{
+    background: hsl(158, 36%, 20%);
+}
+a {
+    text-decoration: none;
 }
 .btn img{
     max-width: 26px; 
